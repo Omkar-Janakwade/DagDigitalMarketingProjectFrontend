@@ -1,13 +1,201 @@
-body {
+/* body styling */
+body,html{
+  overflow-x: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  scroll-padding-top: 80px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Header Styling */
+
+*{
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+  border-bottom: 0.1px solid rgb(86, 86, 86);
+  color:#00d084;
+  padding: 20px 0;
+  /* background-color: rgba(0, 0, 0, .7); */
+}
+
+header .navbar-brand{
+  font-size: 14px;
+  font-family: roboto;
+}
+
+header .rounded-pill{
+  background-color:#00d084;
+}
+
+header.scrolled{
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  padding: 7px 0;
+  border: none;
+}
+
+header.scrolled .navbar .nav-link{
+  color: black;
+}
+
+.transition{
+  transition: all 0.3s ease-in-out;
+}
+
+header .navbar a{
+  text-decoration: none;
+  color:#00d084;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+header .navbar a:hover {
+  color: #00d084; /* Set the desired hover color */
+  text-decoration: none; /* Optional: Remove underline on hover */
+
+}
+
+
+
+/* Home styling */
+.header-carousel{
+  width: 100vw !important;
+  height: 100vh;
+  z-index: 1;
+  /* background-color: rgba(56, 55, 55, 0.733); */
+  background: rgba(0, 0, 0, .7);
+  overflow: hidden;
+}
+
+#carouselImg {
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  animation: floatUpDown 5s ease-in-out infinite;
+  position:absolute;
+  object-fit: cover;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(-0px);
+    background-color: rgba(28, 28, 28, 0.937);
+  }
+  100% {
+    transform: translateY(-40px);
+    background-color: rgba(28, 28, 28, 0.937);
+  }
+}
+
+.rawColorTheme {
+  color:#00d084;
+}
+
+#about .rounded-pill{
+  background-color: #00d084;
+  border: none;
+}
+
+.carousel-caption{
+  top:40%;
+  text-align: center;
+}
+
+body .rounded-pill{
+  background-color: #00d084;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+body .rounded-pill:hover{
+  background-color: black;
+}
+
+
+/* Services section */
+#services .card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(246, 246, 246);
+  outline: none;
+  border: none;
+}
+
+#services .card:hover {
+  /* transform: scale(1.05); Slightly enlarges the card */
+  box-shadow: 0px 0px 20px gray; /* Adds shadow for pop-up effect */
+}
+
+#services .card h4:hover{
+  color: #00d084;
+  cursor: pointer;
+}
+
+#services .card-body img {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+}
+
+#services .card:hover img {
+  transform: scale(1.1); /* Zooms in the image */
+}
+
+/* Footer styling */
+
+footer{
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 35px;
+  background-color: rgb(37, 38, 57);
+}
+
+footer .arrowButton{
+  position: relative;
+  top: -70px ;
+  right: 0%;
+  left: 45%;
+}
+
+footer .QuickLinks{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .QuickLinks a{
+  color: gray;
+  text-decoration: none;
+}
+
+footer i,a{
+  color:#00d084;
+}
+
+footer .contactInfo a{
+  background-color: #00d084;
+}
+
+footer .copyright{
+  background-color: black;
+  text-align: center;
 }

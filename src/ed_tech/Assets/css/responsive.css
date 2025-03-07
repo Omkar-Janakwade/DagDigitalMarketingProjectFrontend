@@ -1,0 +1,517 @@
+
+
+/* mobile device */
+@media screen and (max-width:768px){
+    
+    /* course-respsonsive buttons*/
+    .course-top-content{
+        text-align: left!important;
+    
+    }
+    #more-course{
+        display:block;
+    }
+    .ugpg-btn-container .btn-primary{
+        margin:4px auto;
+    }
+    .mob-ugpg-btn-wrapper .btn-primary{
+        margin:4px auto!important;
+    }
+    .desk-btn{
+        display: none!important;
+    }
+    #mob-course button{
+        width: 100px;
+    }
+    
+    .course-law-btn-container .btn-primary{
+        width:100px;
+        }
+     .course-engineering-btn-container .btn-primary{
+            width:150px;
+        }
+        .course-medical-btn-container{
+            margin: auto ;
+        }
+    /* course-respsonsive buttons*/
+    html{
+        overflow-x: hidden!important;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden!important;
+    }
+    .body-wrapper{
+        overflow-x: hidden;
+        overflow-y: hidden!important;
+        position: relative;
+    }
+   .wrapper-phone{
+       display: block;
+   }
+   .wrapper-desk{
+       display: none;
+   }
+
+
+.nav-links{
+    padding-top:30px;
+    position: absolute;
+     right: 0px;
+     z-index: 1;
+     height:100vh;
+     overflow-y: hidden;
+     top: 8vh;
+     width: 70%!important;
+     background-color:#192A56 ;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(100%);
+     transition: transform  0.5s ease-in;
+     overflow-x: hidden!important;
+     
+}
+
+
+.mob-z-value{
+    z-index: -2!important;
+}
+.mob-z-value-top-college{
+    z-index: -1!important;
+}
+ .nav-links li{
+     margin-top: 10px;
+    opacity: 0;
+} 
+.nav-links li {
+    display: block;
+    margin-bottom: 50px!important;
+} 
+.burger{
+    visibility: visible;
+    cursor: pointer;
+   margin-left: 175px!important;
+}
+.nav-active {
+    transform: translateX(0%);
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.topjumbo{
+    margin-top: 2px!important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+ display: none;
+}
+.dagRotate{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#dagImage{
+    height: 200px;
+    width: 150px;
+    animation: spin 4s linear infinite;
+}
+.headerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start!important;
+    
+}
+.box1 i{
+    box-sizing: border-box;
+    align-items: left;
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    color:blue;
+    border: 1px solid white;
+    margin-right: 7px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.box1 .fas{
+    font-size: 40px;
+    color: black;
+}
+.location-mob{
+    margin-left: -5px!important;
+}
+.one{
+    margin-left: 5px!important;
+}
+
+ .college-container{
+    overflow-x: hidden;
+}
+.banner-top-desktop{
+    display: none;
+}
+.banner-top-mobile{
+    display: block;
+}
+
+.registration-link-img{
+    margin:50px auto ;
+}
+.registration-link-text h2{
+    font-size:10 px!important;
+}
+.contact-hero-phone-wrapper span .fa, .contact-hero-mail-wrapper span .fas{
+    font-size: 35px!important;
+}
+.contact-hero-phone-wrapper{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left:-60px;
+}
+.apply-right-desktop{
+    margin-left:0px!important;
+   height: 400px;
+   width: 400px;
+   
+} 
+.contact-hero-phone-wrapper{
+    margin-left: -68px!important;
+}
+.contact-hero-mail-wrapper{
+    margin-left: 13px!important;
+}
+#dagImage{
+    margin-left: 25px!important;
+}
+.contact-box{
+    margin-left: -30px;
+}
+
+.online-step{
+ margin-bottom: 10px;   
+}
+.apply-back{
+   
+   align-items: center;
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #dde1e7;
+   -webkit-box-shadow: 23px 28px 40px -13px rgba(0,0,0,0.48);
+-moz-box-shadow: 23px 28px 40px -13px rgba(0,0,0,0.48);
+box-shadow: 23px 28px 40px -13px rgba(0,0,0,0.48); 
+}
+.apply-wrapper{
+    margin-top: 20px;
+}
+.innerTopCollege{
+    margin:35px auto;
+}
+.topCollegeModalBtn{
+    margin:5px!important;
+}
+.drop-container{
+    margin-left: 0px!important;
+}
+.mgm-course {
+    margin-top: 30px;
+}
+.btn-group{
+    margin: 10px;
+}
+.footer-bottom, .fotterpart{
+    display: block;
+}
+.topCollegeModalBtn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px!important;
+    
+}
+.mgm-top{
+    margin-top: -20px;
+}
+.first-college{
+    margin-top: -20px!important;
+}
+.our-service-first{
+    margin:-20px auto ;
+}
+.student-service-first{
+    margin-top: 7px!important;
+}
+.course-section{
+    border: none;
+}
+.topCollegBtn{
+    margin:5px!important;
+   
+}
+.topCollegeModalBtn{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+ }
+.topCollegBtn a{
+    margin-top:5px!important;
+    color: white!important;
+}
+.registration-section{
+    margin:0px!important ;
+}
+/* top colleges */
+
+.swiper-mobile{
+    display: block!important;
+}
+.top-college-banner-name{
+    margin-left: 0px!important;
+}
+.swiper-desktop{
+display:none;
+}
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+.slider-wrapper{
+    margin-top:5px
+}
+#banner h2{
+    text-align: center;
+    font-size: 25px;
+    margin:25px;
+    text-transform: uppercase;
+}
+
+.service-wrapper{
+    text-align: center;
+    align-items: center;
+}
+.college-service{
+    height:400px;
+    width: 400px;
+    background-image: url("../Images/final-service-college-service-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+}
+ 
+.whyrow{
+    display: flex;
+    flex-direction: column;
+}
+.why-content-li li{
+    margin-left: 5px!important;
+}
+.why-content-li-li{
+    margin-left: 25px;
+    font-size: 23px;
+}
+#ourvision{
+    margin-top:20px;
+}
+
+.mission{
+    margin-top: 0px;
+}
+
+#trending-college:hover{
+    background-color:#192A56;
+    color: white;
+   
+   
+}
+#about-content{
+    text-align: justify!important;
+    
+}
+.weat{
+
+    font-size: 15px!important;
+}
+.college-girl-desktop{
+    display: none;
+   
+}
+.college-girl-mob{
+    margin-top: 5px;
+    display: block;
+    height: 400px;
+    width: 100%;;
+}
+#locationHeader{
+    font-size: 30px!important;
+}
+.registerBanner{
+       align-items: center;
+       color: white;
+    background-color:#6A89CC;
+}
+.registration-link-text h2{
+    font-size:20px;
+    align-items: left;
+    text-align: left!important;
+    
+}
+.registerBanner h4{
+    margin-top: 10px;
+    letter-spacing: 0.7px;
+}
+#register-button{
+  margin: 10px auto;
+  font-weight: bold;
+  letter-spacing: 5px;
+  border: 2px solid white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: red;
+}
+#register-button a :hover{
+    background-color:white;
+    color:black;
+}
+
+.trending-wrapper{
+
+   font-size:12px;   
+}
+
+ .fotterpart{
+    margin-top: 15px;
+}
+.ss-handle-footer{
+    display: block;
+    margin-left: 0px!important;
+}
+.about-dag-rotate{
+    margin-left: -20px!important;
+}
+.about-footer{
+    margin-top:-20px!important;
+}
+.in-touch-fotter{
+    margin-left: 0px!important;
+}
+.nav{
+    display: block;
+}
+.jumbotop{
+    margin-top: 30px;
+}
+ 
+.testimonial-mobile{
+    display: block!important;
+}
+.testomy-wrapper{
+    padding-top: 15px;
+}
+.testimony-issue{
+    display: none;
+}
+ 
+.form-responsive{
+    text-align: center;
+    margin-left: -35px!important;
+}
+.iframe-responsive{
+    color: yellow!important;
+}
+
+/* animation for mobile */
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+/* contact page */
+#faq-img {
+    height: 300px!important;
+    width: 300px!important;
+
+}
+.furtherquery h2{
+    font-size: 20px!important;
+}
+.contact-from-contact{
+    height: 700px!important;
+}
+/* contact page */
+/* mobile device */
+
+}
+.contact-footer-contact{
+    margin-top: -50px;
+    margin-left: 10px!important;
+}
+/* colleges */
+.quick-from{
+    margin-left: -10px;
+}
+/* colleges */
+.registration-form{
+    margin-left: -20px;
+    width: 400px!important;
+}
+.service-hero{
+    height: 70vh;
+    background-image: url("../Images/test.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+      
+}
+.service-req{
+    margin-left: -10px!important;
+}
+.service-contact{
+    margin-left: 40px!important;
+}
+.service-req {
+    margin-left: -50px!important;
+}
+.mobile-button{
+    display: block;
+}
+
+/* tablet device */
+@media screen and (max-width:1024px){
+   
+    .nav-links{
+        width:100%;
+        margin-top:0px!important;
+    }
+    
+   
+}
+
+
+/* tablet device */
