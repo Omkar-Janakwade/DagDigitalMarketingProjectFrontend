@@ -20,6 +20,7 @@ const Home = () => {
 
         if (response && response.data) {
           console.log(response.data);
+          console.log("length of response "+response.data.length)
           setServices(response.data);
         }
       } catch (error) {
@@ -50,7 +51,12 @@ const Home = () => {
     if (title == "REAL ESTATE") {
       navigate('//page/realestate', { replace: true })
     }
-
+    if (title == "ONLINE PAYMENT") {
+      navigate('/page/OnlinePayment', { replace: true }); // ✅ Remove double slashes
+    }
+    if (title === "PANDIT JI") {
+      navigate('/page/PanditJi', { replace: true });
+    }
     if (title.trim() === "DAG ED TECH") {
       window.open("", '_blank')
     }
@@ -131,12 +137,12 @@ const Home = () => {
         <div className="container pb-5">
           <div className="text-center mx-auto pb-5 wow fadeInUp">
             <h2 className="mb-5 rawColorTheme">DAG Services</h2>
-            <p className="mb-0">Here is the list of wide services we offer!</p>
+            <p className="mb-0">Here is the list of wide services we offer! </p>
           </div>
           <div className="row g-4 d-flex">
             {
               services.length > 0 ? services.map((service, index) => (
-                service.type == "main-service" && <div className="col-md-4" data-aos="zoom-in" key={index}>
+                service.type == "main-service" &&  <div className="col-md-4" data-aos="zoom-in" key={index}>
                   <div className="card" >
                     <div className="card-body p-0">
                       <div>

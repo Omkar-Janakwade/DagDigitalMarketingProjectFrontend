@@ -9,6 +9,8 @@ import Header from '../src/Components/Header/Header';
 import Footer from '../src/Components/Footer/Footer';
 import Interior from './Components/InteriorDes.jsx/Interior';
 import RealEstate from './Components/Real-state/RealEstate';
+import PanditJi from './Components/PanditJi/PanditJi';
+import OnlinePayment from './Components/OnlinePayment/OnlinePayment';
 
 const App = () => {
   return (
@@ -22,7 +24,9 @@ const App = () => {
         <Route path="/page/digmark" element={<DigitalMarketing />} />
         <Route path='/page/interior' element={<Interior/>}/>
         <Route path='/page/realestate' element={<RealEstate/>}/>
-        {/* <Route path='/page/webapp' element={<WebApp/>}/> */}
+        <Route path="/page/PanditJi" element={<PanditJi />} />
+        <Route path="/page/OnlinePayment" element={<OnlinePayment />} />        
+
       </Routes>
       <Footer />
     </div>
