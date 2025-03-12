@@ -219,7 +219,7 @@ const WebApp = ({ toggleEnquiryForm }) => {
                   <button type="button" className="btn-close" onClick={() => setShowModal(false)}></button>
                 </div>
                 <div className="modal-body">
-                  <p>Would you like to call {phoneNumber}?</p>
+                  <p>Would you lie to call {phoneNumber}?</p>
                 </div>
                 <div className="modal-footer">
                   <button className="btn btn-secondary" onClick={() => setShowModal(false)}>Cancel</button>
